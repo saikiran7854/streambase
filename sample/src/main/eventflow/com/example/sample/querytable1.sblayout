@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><application-layout>
+    <component name="InputStream">
+        <param name="gui:x" value="-60"/>
+        <param name="gui:y" value="-227"/>
+    </component>
+    <component name="querytableRef1">
+        <param name="gui:x" value="114"/>
+        <param name="gui:y" value="-94"/>
+    </component>
+    <component name="Metronome">
+        <param name="gui:x" value="-60"/>
+        <param name="gui:y" value="6"/>
+    </component>
+    <component name="Query">
+        <param name="gui:x" value="110"/>
+        <param name="gui:y" value="-227"/>
+    </component>
+    <component name="Query2">
+        <param name="gui:x" value="110"/>
+        <param name="gui:y" value="6"/>
+    </component>
+    <component name="OutputStream">
+        <param name="gui:x" value="190"/>
+        <param name="gui:y" value="6"/>
+    </component>
+    <component name="OutputStream2">
+        <param name="gui:x" value="190"/>
+        <param name="gui:y" value="-227"/>
+    </component>
+</application-layout>

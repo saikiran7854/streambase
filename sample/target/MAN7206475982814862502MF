@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Package-Version: 0.0.1-SNAPSHOT
+TIBCO-EP-Fragment-Identifier: com.example.sample
+Package-Title: sample
+Archiver-Version: Plexus Archiver
+Built-By: SHIVA
+TIBCO-EP-Fragment-Type: ep-eventflow-fragment
+TIBCO-EP-Fragment-Format-Version: 2
+Class-Path: com.tibco.ep.sb.adapter-jms-10.4.5.jar javax.jms-javax.jms
+ -api-2.0.jar javax.jms-jms-2.0.jar com.tibco.ems-tibjms-10.1.0.jar 
+Build-Jdk: 1.8.0_341
+

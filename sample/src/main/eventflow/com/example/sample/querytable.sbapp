@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modify version="10.4.5_0ee866049a97c7e97d4763e2d78e43edc0e985b0">
+    <add>
+        <annotations>
+            <annotation name="hygienic"/>
+        </annotations>
+        <type-metadata>
+            <param name="type" value="module"/>
+            <param name="fully-qualified-name" value="com.example.sample.querytable"/>
+        </type-metadata>
+        <memory-model-settings/>
+        <dynamic-variables/>
+        <data name="QueryTable" shared="true" source="concrete" type="querytable">
+            <param name="storage-method" value="transactional_memory"/>
+            <param name="replicated" value="false"/>
+            <table-schema>
+                <schema>
+                    <field name="id" type="int"/>
+                    <field name="name" type="string"/>
+                </schema>
+                <primary-index type="btree">
+                    <field name="id"/>
+                </primary-index>
+            </table-schema>
+            <param name="truncate" value="false"/>
+            <preload format="csv" mode="empty"/>
+        </data>
+    </add>
+</modify>
